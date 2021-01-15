@@ -36,6 +36,7 @@ require "refatorar.php"
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
@@ -45,7 +46,10 @@ require "refatorar.php"
               <img class="d-block img-fluid" src="imagens/verduras-legumes-p.jpg" alt="Verduras e legumes" width="481px">
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Third slide">
+              <img class="d-block img-fluid" src="imagens/hortalicas-p.jpg" alt="Folhagens" width="482px">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="imagens/raizes-p.jpeg" alt="Raízes" width="481px">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -65,7 +69,7 @@ require "refatorar.php"
               <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item One</a>
+                  <a href="frutas.php">Frutas</a>
                 </h4>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
@@ -77,7 +81,7 @@ require "refatorar.php"
               <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Two</a>
+                  <a href="verduras.php">Verduras / Legumes</a>
                 </h4>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
               </div>
@@ -89,7 +93,7 @@ require "refatorar.php"
               <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Three</a>
+                  <a href="folhagens.php">Folhagens</a>
                 </h4>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
               </div>
@@ -101,21 +105,9 @@ require "refatorar.php"
               <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Four</a>
+                  <a href="raizes.php">Raízes / Tubérculos</a>
                 </h4>
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Item Five</a>
-                </h4>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
               </div>
             </div>
           </div>

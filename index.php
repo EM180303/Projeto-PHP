@@ -66,7 +66,7 @@ require "refatorar.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/frutas-2.jpg" alt="Pág de frutas"  height="170px"></a>
+              <a href="frutas.php"><img class="card-img-top" src="imagens/frutas-2.jpg" alt="Pág de frutas"  height="170px"></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="frutas.php">Frutas</a>
@@ -84,36 +84,54 @@ require "refatorar.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/verduras-legumes-p.jpg" alt="Pág verduras"></a>
+              <a href="verduras.php"><img class="card-img-top" src="imagens/verduras-legumes-p.jpg" alt="Pág verduras"></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="verduras.php">Verduras / Legumes</a>
                 </h4>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                  <p class="card-text"><ul>
+                  <li>Abobrinha</li>
+                  <li>Cebola</li>
+                  <li>Chuchu</li>
+                  <li>Pepino</li>
+                  <li>Tomate</li>
+                  </ul></p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/hortalicas-p.jpg" alt="Pág Folhagens"></a>
+              <a href="folhagens.php"><img class="card-img-top" src="imagens/hortalicas-p.jpg" alt="Pág Folhagens"></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="folhagens.php">Folhagens</a>
                 </h4>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                  <p class="card-text"><ul>
+                  <li>Alface</li>
+                  <li>Coentro</li>
+                  <li>Couve-Flor</li>
+                  <li>Hortelã</li>
+                  <li>Repolho</li>
+                  </ul></p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/raizes-p.jpeg" alt="Pág Raízes"></a>
+              <a href="raizes.php"><img class="card-img-top" src="imagens/raizes-p.jpeg" alt="Pág Raízes"></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="raizes.php">Raízes / Tubérculos</a>
                 </h4>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                  <p class="card-text"><ul>
+                  <li>Batata Doce</li>
+                  <li>Cará</li>
+                  <li>Inhame</li>
+                  <li>Macaxeira</li>
+                  <li>Mandioquinha</li>
+                  </ul></p>
               </div>
             </div>
           </div>

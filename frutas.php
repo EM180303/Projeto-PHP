@@ -35,7 +35,7 @@ require "refatorar.php"
           
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img class="d-block img-fluid" src="imagens/frutas.jpg" alt="Frutas" width="519px">
+              <img class="d-block img-fluid" src="imagens/frutas-2.jpg" alt="Frutas" width="519px">
             </div>
           </div>
           
@@ -45,65 +45,65 @@ require "refatorar.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="#"><img class="card-img-top" src="imagens/banana.jpg" alt="Bananas" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item One</a>
+                  <a href="#">Banana</a>
                 </h4>
-                <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <h5>R$0,25 Und.</h5>
+                <p class="card-text">Banana Maçâ, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="#"><img class="card-img-top" src="imagens/laranja.jpg" alt="Laranjas"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Two</a>
+                  <a href="#">Laranja</a>
                 </h4>
-                <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                <h5>R$0,50 Und.</h5>
+                <p class="card-text">Laranja Bahia, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="#"><img class="card-img-top" src="imagens/maca.jpg" alt="Maçãs" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Three</a>
+                  <a href="#">Maçã</a>
                 </h4>
-                <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <h5>R$0,80 Und.</h5>
+                <p class="card-text">Maçã Gala, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="#"><img class="card-img-top" src="imagens/melancia-p.jpg" alt="Melancia" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Four</a>
+                  <a href="#">Melancia</a>
                 </h4>
-                <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <h5>R$7,00 Kg</h5>
+                <p class="card-text">Melancia, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="#"><img class="card-img-top" src="imagens/uva.jpg" alt="Uvas" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Item Five</a>
+                  <a href="#">Uva Roxa</a>
                 </h4>
-                <h5>$24.99</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                <h5>R$8,50 Kg</h5>
+                <p class="card-text">Uva Roxa, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
           </div>

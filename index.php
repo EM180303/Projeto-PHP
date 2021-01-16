@@ -40,16 +40,16 @@ require "refatorar.php"
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img class="d-block img-fluid" src="imagens/frutas.jpg" alt="Frutas" width="519px">
+              <a href="frutas.php"><img class="d-block img-fluid" src="imagens/frutas-2.jpg" alt="Frutas" width="570px"></a>
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid" src="imagens/verduras-legumes-p.jpg" alt="Verduras e legumes" width="481px">
+              <a href="verduras.php"><img class="d-block img-fluid" src="imagens/verduras-legumes-p.jpg" alt="Verduras e legumes" width="481px"></a>
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid" src="imagens/hortalicas-p.jpg" alt="Folhagens" width="482px">
+              <a href="folhagens.php"><img class="d-block img-fluid" src="imagens/hortalicas-p.jpg" alt="Folhagens" width="482px"></a>
             </div>
             <div class="carousel-item">
-              <img class="d-block img-fluid" src="imagens/raizes-p.jpeg" alt="Raízes" width="481px">
+              <a href="raizes.php"><img class="d-block img-fluid" src="imagens/raizes-p.jpeg" alt="Raízes" width="481px"></a>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -66,19 +66,25 @@ require "refatorar.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="#"><img class="card-img-top" src="imagens/frutas-2.jpg" alt="Pág de frutas"  height="170px"></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="frutas.php">Frutas</a>
                 </h4>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                  <p class="card-text"><ul>
+                  <li>Banana</li>
+                  <li>Laranja</li>
+                  <li>Maçã</li>
+                  <li>Melancia</li>
+                  <li>Uva Roxa</li>
+                  </ul></p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="#"><img class="card-img-top" src="imagens/verduras-legumes-p.jpg" alt="Pág verduras"></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="verduras.php">Verduras / Legumes</a>
@@ -90,7 +96,7 @@ require "refatorar.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="#"><img class="card-img-top" src="imagens/hortalicas-p.jpg" alt="Pág Folhagens"></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="folhagens.php">Folhagens</a>
@@ -102,7 +108,7 @@ require "refatorar.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <a href="#"><img class="card-img-top" src="imagens/raizes-p.jpeg" alt="Pág Raízes"></a>
               <div class="card-body">
                 <h4 class="card-title">
                   <a href="raizes.php">Raízes / Tubérculos</a>

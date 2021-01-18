@@ -100,7 +100,7 @@ require "refatorar.php"
               <a href="#"><img class="card-img-top" src="imagens/uva.jpg" alt="Uvas" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Uva Roxa</a>
+                  <a href="#">Uva</a>
                 </h4>
                 <h5>R$8,50 Kg</h5>
                 <p class="card-text">Uva Roxa, cultivada sem agrotóxicos, nem conservantes.</p>

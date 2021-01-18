@@ -59,19 +59,6 @@ require "refatorar.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/chuchu.jpg" alt="Chuchu" height="145px"></a>
-              <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Chuchu</a>
-                </h4>
-                <h5>R$1,50 Und.</h5>
-                <p class="card-text">Chuchu, cultivado sem agrotóxicos, nem conservantes.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100">
               <a href="#"><img class="card-img-top" src="imagens/cebola.jpg" alt="Cebola" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
@@ -85,13 +72,13 @@ require "refatorar.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/tomate-p.jpg" alt="Tomates ceraja" height="145px"></a>
+              <a href="#"><img class="card-img-top" src="imagens/chuchu.jpg" alt="Chuchu" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Tomate</a>
+                  <a href="#">Chuchu</a>
                 </h4>
-                <h5>R$20,99 Kg</h5>
-                <p class="card-text">Tomate Cereja, cultivado sem agrotóxicos, nem conservantes.</p>
+                <h5>R$1,50 Und.</h5>
+                <p class="card-text">Chuchu, cultivado sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
           </div>
@@ -105,6 +92,19 @@ require "refatorar.php"
                 </h4>
                 <h5>R$2,20 Kg</h5>
                 <p class="card-text">Pepino Japonês, cultivada sem agrotóxicos, nem conservantes.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="imagens/tomate-p.jpg" alt="Tomates ceraja" height="145px"></a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Tomate</a>
+                </h4>
+                <h5>R$20,99 Kg</h5>
+                <p class="card-text">Tomate Cereja, cultivado sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
           </div>

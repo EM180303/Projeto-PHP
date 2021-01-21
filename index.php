@@ -20,6 +20,7 @@ require "refatorar.php"
 
         <h1 class="my-4">Página inicial</h1>
         <div class="list-group">
+        <a href="index.php" class="list-group-item" style="background-color: #abc7ab;">Página inicial</a>
           <a href="frutas.php" class="list-group-item">Frutas</a>
           <a href="verduras.php" class="list-group-item">Verduras / Legumes</a>
           <a href="folhagens.php" class="list-group-item">Folhagens</a>

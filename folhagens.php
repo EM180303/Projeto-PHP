@@ -43,9 +43,10 @@ require "refatorar.php"
 
         <h1 class="my-4">Folhagens</h1>
         <div class="list-group">
+        <a href="index.php" class="list-group-item">Página inicial</a>
           <a href="frutas.php" class="list-group-item">Frutas</a>
           <a href="verduras.php" class="list-group-item">Verduras / Legumes</a>
-          <a href="folhagens.php" class="list-group-item">Folhagens</a>
+          <a href="folhagens.php" class="list-group-item" style="background-color: #abc7ab;">Folhagens</a>
           <a href="raizes.php" class="list-group-item">Raízes / Tubérculos</a>
         </div>
 
@@ -88,7 +89,7 @@ require "refatorar.php"
                   <a href="#">Coentro</a>
                 </h4>
                 <h5>R$2,40 Und.</h5>
-                <p class="card-text">Coentro, cultivada sem agrotóxicos, nem conservantes.</p>
+                <p class="card-text">Coentro, cultivado sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
           </div>

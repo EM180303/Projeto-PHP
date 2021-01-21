@@ -40,16 +40,16 @@ require "refatorar.php"
           </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <a href="frutas.php"><img class="d-block img-fluid" src="imagens/frutas-2.jpg" alt="Frutas" width="570px"></a>
+              <a href="frutas.php"><img class="d-block img-fluid" src="imagens/frutas-2.jpg" alt="Frutas"></a>
             </div>
             <div class="carousel-item">
-              <a href="verduras.php"><img class="d-block img-fluid" src="imagens/verduras-legumes-p.jpg" alt="Verduras e legumes" width="481px"></a>
+              <a href="verduras.php"><img class="d-block img-fluid" src="imagens/verduras-legumes-p.jpg" alt="Verduras e legumes"></a>
             </div>
             <div class="carousel-item">
-              <a href="folhagens.php"><img class="d-block img-fluid" src="imagens/hortalicas-p.jpg" alt="Folhagens" width="482px"></a>
+              <a href="folhagens.php"><img class="d-block img-fluid" src="imagens/hortalicas-p.jpg" alt="Folhagens"></a>
             </div>
             <div class="carousel-item">
-              <a href="raizes.php"><img class="d-block img-fluid" src="imagens/raizes-p.jpeg" alt="Raízes" width="481px"></a>
+              <a href="raizes.php"><img class="d-block img-fluid" src="imagens/raizes-p.jpeg" alt="Raízes"></a>
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

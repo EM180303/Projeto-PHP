@@ -43,6 +43,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="login.php">Login</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cadastro.php">Cadastre-se</a>
+              </li>
             </ul>
           </div>
         </div>

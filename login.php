@@ -1,14 +1,14 @@
 <?php
-require "refatorar.php"
+require "nav.php"
 ?>
 
-<html>
+<html lang="ept-BR">
 <head>
    
 </head>
 <body>
     <div class="container">
-        <p>x</p>
+        <p></p>
     </div>
  <!-- Footer -->
  <footer class="py-5 bg-dark">

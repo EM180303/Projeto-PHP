@@ -24,7 +24,7 @@ require "nav.php"
           <a href="frutas.php" class="list-group-item">Frutas</a>
           <a href="verduras.php" class="list-group-item">Verduras / Legumes</a>
           <a href="folhagens.php" class="list-group-item">Folhagens</a>
-          <a href="raizes.php" class="list-group-item" style="background-color: #abc7ab;">Raízes / Tubérculos</a>
+          <a href="raizes.php" class="list-group-item" style="background-color: #E8E1DF;">Raízes / Tubérculos</a>
         </div>
 
       </div>

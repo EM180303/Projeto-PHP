@@ -70,10 +70,10 @@ require "nav.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/alface.jpg" alt="Alface" height="145px"></a>
+              <a href="alface.php"><img class="card-img-top" src="imagens/alface.jpg" alt="Alface" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Alface</a>
+                  <a href="alface.php">Alface</a>
                 </h4>
                 <h5>R$2,59 Und.</h5>
                 <p class="card-text">Alface Lisa, cultivada sem agrotóxicos, nem conservantes.</p>
@@ -83,10 +83,10 @@ require "nav.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/coentro-p.jpg" alt="Coentro" height="145px"></a>
+              <a href="coentro.php"><img class="card-img-top" src="imagens/coentro-p.jpg" alt="Coentro" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Coentro</a>
+                  <a href="coentro.php">Coentro</a>
                 </h4>
                 <h5>R$2,40 Und.</h5>
                 <p class="card-text">Coentro, cultivado sem agrotóxicos, nem conservantes.</p>
@@ -96,10 +96,10 @@ require "nav.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/couve-flor-p.jpg" alt="Couve-Flor" height="145px"></a>
+              <a href="couve.php"><img class="card-img-top" src="imagens/couve-flor-p.jpg" alt="Couve-Flor" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Couve-Flor</a>
+                  <a href="couve.php">Couve-Flor</a>
                 </h4>
                 <h5>R$10,99 Und.</h5>
                 <p class="card-text">Couve-Flor, cultivada sem agrotóxicos, nem conservantes.</p>
@@ -109,10 +109,10 @@ require "nav.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/hortela.jpg" alt="Hortelã" height="145px"></a>
+              <a href="hortela.php"><img class="card-img-top" src="imagens/hortela.jpg" alt="Hortelã" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Hortelã</a>
+                  <a href="hortela.php">Hortelã</a>
                 </h4>
                 <h5>R$3,50 Und.</h5>
                 <p class="card-text">Hortelã, cultivada sem agrotóxicos, nem conservantes.</p>
@@ -122,10 +122,10 @@ require "nav.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/repolho-p.jpg" alt="Repolho" height="145px"></a>
+              <a href="repolho.php"><img class="card-img-top" src="imagens/repolho-p.jpg" alt="Repolho" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Repolho</a>
+                  <a href="repolho.php">Repolho</a>
                 </h4>
                 <h5>R$6,50 Kg</h5>
                 <p class="card-text">Repolho, cultivado sem agrotóxicos, nem conservantes.</p>

@@ -46,10 +46,10 @@ require "nav.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/banana.jpg" alt="Bananas" height="145px"></a>
+              <a href="banana.php"><img class="card-img-top" src="imagens/banana.jpg" alt="Bananas" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Banana</a>
+                  <a href="banana.php">Banana</a>
                 </h4>
                 <h5>R$0,25 Und.</h5>
                 <p class="card-text">Banana Maçâ, cultivada sem agrotóxicos, nem conservantes.</p>
@@ -59,10 +59,10 @@ require "nav.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/laranja.jpg" alt="Laranjas"></a>
+              <a href="laranja.php"><img class="card-img-top" src="imagens/laranja.jpg" alt="Laranjas"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Laranja</a>
+                  <a href="laranja.php">Laranja</a>
                 </h4>
                 <h5>R$0,50 Und.</h5>
                 <p class="card-text">Laranja Bahia, cultivada sem agrotóxicos, nem conservantes.</p>
@@ -72,10 +72,10 @@ require "nav.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/maca.jpg" alt="Maçãs" height="145px"></a>
+              <a href="maca.php"><img class="card-img-top" src="imagens/maca.jpg" alt="Maçãs" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Maçã</a>
+                  <a href="maca.php">Maçã</a>
                 </h4>
                 <h5>R$0,80 Und.</h5>
                 <p class="card-text">Maçã Gala, cultivada sem agrotóxicos, nem conservantes.</p>
@@ -85,10 +85,10 @@ require "nav.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/melancia-p.jpg" alt="Melancia" height="145px"></a>
+              <a href="melancia.php"><img class="card-img-top" src="imagens/melancia-p.jpg" alt="Melancia" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Melancia</a>
+                  <a href="melancia.php">Melancia</a>
                 </h4>
                 <h5>R$7,00 Kg</h5>
                 <p class="card-text">Melancia, cultivada sem agrotóxicos, nem conservantes.</p>
@@ -98,10 +98,10 @@ require "nav.php"
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="imagens/uva.jpg" alt="Uvas" height="145px"></a>
+              <a href="uva.php"><img class="card-img-top" src="imagens/uva.jpg" alt="Uvas" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Uva</a>
+                  <a href="uva.php">Uva</a>
                 </h4>
                 <h5>R$8,50 Kg</h5>
                 <p class="card-text">Uva Roxa, cultivada sem agrotóxicos, nem conservantes.</p>

@@ -48,7 +48,7 @@ require "nav.php"
             <div class="card h-100">
               <a href="banana.php"><img class="card-img-top" src="imagens/banana.jpg" alt="Bananas" height="145px"></a>
               <div class="card-body">
-                <h4 class="card-title">
+                <h4 class="card-title" >
                   <a href="banana.php">Banana</a>
                 </h4>
                 <h5>R$0,25 Und.</h5>

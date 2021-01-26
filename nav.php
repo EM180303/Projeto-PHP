@@ -15,10 +15,13 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <link  rel = " stylesheet " href = " https://unpkg.com/aos@next/dist/aos.css "/>
+
   <!-- Custom styles for this template -->
   <link href="css/shop-homepage.css" rel="stylesheet">
 
   <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
 
 </head>
 <body>
@@ -51,7 +54,10 @@
         </div>
     </nav>
   </div>
-  
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

@@ -15,8 +15,6 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <link  rel = " stylesheet " href = " https://unpkg.com/aos@next/dist/aos.css "/>
-
   <!-- Custom styles for this template -->
   <link href="css/shop-homepage.css" rel="stylesheet">
 
@@ -38,26 +36,22 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="index.php">Página inicial
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="login.php">Login</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cadastro.php">Cadastre-se</a>
+                <a class="nav-link" href="login.php">Login
+                  <span class="sr-only">(current)</span>
+                </a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
   </div>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+  
 </body>
 
 </html>

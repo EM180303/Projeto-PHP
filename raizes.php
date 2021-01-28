@@ -104,7 +104,7 @@ require "nav.php"
                 <h4 class="card-title">
                   <a href="mandioquinha.php">Mandioquinha</a>
                 </h4>
-                <h5>R$19,99</h5>
+                <h5>R$19,99 Kg</h5>
                 <p class="card-text">Mandioquinha, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>

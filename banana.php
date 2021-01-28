@@ -32,7 +32,7 @@ require "nav.php"
             <input class="btn btn-primary" type="button" onclick="valorProduto();" value="Calcular">
             <br>
             <br>
-            <form action="sucesso.php">
+            <form action="carrinho.php">
               <button class="btn btn-success">Adicionar ao carrinho</button>
             </form>
             <br>

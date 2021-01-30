@@ -20,6 +20,23 @@
 
   <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 
+  <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+
 </head>
 
 <body> 
@@ -115,7 +132,9 @@
               <a href="frutas.php"><img class="card-img-top" src="imagens/frutas-2.jpg" alt="Pág de frutas"  height="170px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="frutas.php">Frutas</a>
+                  <a href="frutas.php"><h2>
+                    Frutas
+                  </h2></a>
                 </h4>
                   <p class="card-text"><ul>
                   <li>Banana</li>
@@ -133,7 +152,9 @@
               <a href="verduras.php"><img class="card-img-top" src="imagens/verduras-legumes-p.jpg" alt="Pág verduras"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="verduras.php">Verduras / Legumes</a>
+                  <a href="verduras.php"><h2>
+                    Verduras / Legumes
+                  </h2></a>
                 </h4>
                   <p class="card-text"><ul>
                   <li>Abobrinha</li>
@@ -151,7 +172,9 @@
               <a href="folhagens.php"><img class="card-img-top" src="imagens/hortalicas-p.jpg" alt="Pág Folhagens"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="folhagens.php">Folhagens</a>
+                  <a href="folhagens.php"><h2>
+                    Folhagens
+                  </h2></a>
                 </h4>
                   <p class="card-text"><ul>
                   <li>Alface</li>
@@ -169,7 +192,9 @@
               <a href="raizes.php"><img class="card-img-top" src="imagens/raizes-p.jpeg" alt="Pág Raízes"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="raizes.php">Raízes / Tubérculos</a>
+                  <a href="raizes.php"><h2>
+                    Raízes / Tubérculos
+                  </h2></a>
                 </h4>
                   <p class="card-text"><ul>
                   <li>Batata Doce</li>

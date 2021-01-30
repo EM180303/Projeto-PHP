@@ -50,7 +50,9 @@ require "nav.php"
               <a href="abobrinha.php"><img class="card-img-top" src="imagens/abobrinha-2-p.jpg" alt="Abobrinha" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="abobrinha.php">Abobrinha</a>
+                  <a href="abobrinha.php"><h3>
+                    Abobrinha
+                  </h3></a>
                 </h4>
                 <h5>R$4,80 Kg</h5>
                 <p class="card-text">Abobrinha, cultivada sem agrotóxicos, nem conservantes.</p>
@@ -63,7 +65,9 @@ require "nav.php"
               <a href="cebola.php"><img class="card-img-top" src="imagens/cebola.jpg" alt="Cebola" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="cebola.php">Cebola</a>
+                  <a href="cebola.php"><h3>
+                    Cebola
+                  </h3></a>
                 </h4>
                 <h5>R$3,25 Kg</h5>
                 <p class="card-text">Cebola, cultivada sem agrotóxicos, nem conservantes.</p>
@@ -76,7 +80,9 @@ require "nav.php"
               <a href="chuchu.php"><img class="card-img-top" src="imagens/chuchu.jpg" alt="Chuchu" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="chuchu.php">Chuchu</a>
+                  <a href="chuchu.php"><h3>
+                    Chuchu
+                  </h3></a>
                 </h4>
                 <h5>R$1,50 Und.</h5>
                 <p class="card-text">Chuchu, cultivado sem agrotóxicos, nem conservantes.</p>
@@ -89,7 +95,9 @@ require "nav.php"
               <a href="pepino.php"><img class="card-img-top" src="imagens/pepino-2-p.jpg" alt="Pepinos" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="pepino.php">Pepino</a>
+                  <a href="pepino.php"><h3>
+                    Pepino
+                  </h3></a>
                 </h4>
                 <h5>R$2,20 Kg</h5>
                 <p class="card-text">Pepino Japonês, cultivada sem agrotóxicos, nem conservantes.</p>
@@ -102,7 +110,9 @@ require "nav.php"
               <a href="tomate.php"><img class="card-img-top" src="imagens/tomate-p.jpg" alt="Tomates ceraja" height="145px"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="tomate.php">Tomate</a>
+                  <a href="tomate.php"><h3>
+                    Tomate
+                  </h3></a>
                 </h4>
                 <h5>R$20,99 Kg</h5>
                 <p class="card-text">Tomate Cereja, cultivado sem agrotóxicos, nem conservantes.</p>

@@ -39,7 +39,7 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.php">Página Inicial
+                <a class="nav-link" href="index.php">Página inicial
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
@@ -67,7 +67,7 @@
 						<span class="focus-input100"></span>
 					</div>
 
-					<div class="wrap-input100 validate-input m-b-20" data-validate = "Please enter password">
+					<div class="wrap-input100 validate-input m-b-20" data-validate = "Digite sua senha">
 						<span class="btn-show-pass">
 							<i class="fa fa fa-eye"></i>
 						</span>
@@ -81,12 +81,12 @@
 						</button>
 					</div>
 					
-					<div class="flex-col-c p-t-224">
+					<div class="flex-col-c p-t-100">
 						<span class="txt2 p-b-10">
 							Não possui uma conta?
 						</span>
 
-						<a href="#" class="txt3 bo1 hov1">
+						<a href="cadastro.php" class="txt3 bo1 hov1">
 							CADASTRE-SE
 						</a>
 					</div>

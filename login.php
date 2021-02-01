@@ -52,7 +52,7 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-t-90 p-b-30">
-				<form class="login100-form validate-form">
+				<form action="valid_login.php" method="POST" class="login100-form validate-form">
 
 					<div class="text-center p-t-55 p-b-30">
 						<span class="txt1">
@@ -74,6 +74,12 @@
 						<input class="input100" type="password" name="pass" placeholder="Senha">
 						<span class="focus-input100"></span>
 					</div>
+
+					<?php if (isset($_GET['login']) && $_GET['login'] == 'erro') { ?>
+						<div class="text-danger">
+						Email ou senha inválidos!
+						</div>
+					<?php } ?>
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">

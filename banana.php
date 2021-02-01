@@ -1,5 +1,5 @@
 <?php
-require "nav.php"
+require "nav.php";
 ?>
 
 <html lang="pt-BR">

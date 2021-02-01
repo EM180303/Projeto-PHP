@@ -15,9 +15,9 @@ foreach($usuarios as $entrada){
 }
 
 if($usuario_autenticado){
-    $sessao['validado'] = 'SIM';
+    $_SESSION['validado'] = 'SIM';
     header('Location:home.php');
 } else {
-    $sessao['validado'] = 'NÃO';
+    $_SESSION['validado'] = 'NÃO';
     header('Location:index.php?login=erro');
 }

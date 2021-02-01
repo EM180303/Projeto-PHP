@@ -62,7 +62,7 @@ require "valid_navegacao.php"
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="index.php">Carrinho
+                <a class="nav-link" href="carrinho.php">Carrinho
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
@@ -73,6 +73,13 @@ require "valid_navegacao.php"
                   </svg>
                 </a>
               </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="logoff.php">Sair
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+
             </ul>
           </div>
         </div>

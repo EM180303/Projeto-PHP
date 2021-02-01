@@ -1,4 +1,5 @@
 <?php
+require "valid_navegacao.php";
 require "nav.php";
 ?>
 

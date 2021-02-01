@@ -1,3 +1,6 @@
+<?php
+require "valid_navegacao.php";
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -62,6 +65,12 @@
                             <span class="sr-only">(current)</span>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="logoff.php">Sair
+                            <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
             </div>

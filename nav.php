@@ -68,6 +68,7 @@
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
+              
               <li class="nav-item">
                 <a href="carrinho.php">
                   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
@@ -75,6 +76,13 @@
                   </svg>
                 </a>
               </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="logoff.php">Sair
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+
             </ul>
           </div>
         </div>

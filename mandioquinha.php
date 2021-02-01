@@ -1,5 +1,6 @@
 <?php
-require "nav.php"
+require "valid_navegacao.php";
+require "nav.php";
 ?>
 <head>
    <script> type= "text/javascript"

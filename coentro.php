@@ -1,5 +1,6 @@
 <?php
-require "nav.php"
+require "valid_navegacao.php";
+require "nav.php";
 ?>
 <html lang="pt-BR">
 <head>

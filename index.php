@@ -39,7 +39,16 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
-           
+		  <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="logoff.php">Sair
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+
+            </ul>
           </div>
         </div>
     </nav>
@@ -75,7 +84,7 @@
 						</div>
 					<?php } ?>
 
-					<?php if (isset($_GET['login']) && $_GET['login'] == 'erro2') { ?>
+					<?php if (isset($_GET['login']) && $_GET['login'] == 'erro1') { ?>
 						<div class="text-danger">
 						Faça o login para acessar a página!
 						</div>

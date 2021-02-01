@@ -20,7 +20,7 @@ require "nav.php"
 
         <h1 class="my-4">Verduras / Legumes</h1>
         <div class="list-group">
-        <a href="index.php" class="list-group-item">Página inicial</a>
+        <a href="home.php" class="list-group-item">Página inicial</a>
           <a href="frutas.php" class="list-group-item">Frutas</a>
           <a href="verduras.php" class="list-group-item" style="background-color: #E8E1DF;">Verduras / Legumes</a>
           <a href="folhagens.php" class="list-group-item">Folhagens</a>

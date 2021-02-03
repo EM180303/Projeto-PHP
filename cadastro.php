@@ -68,7 +68,7 @@
     <div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-t-90 p-b-30">
-				<form class="login100-form validate-form">
+				<form action="cadastrar.php" method="POST" class="login100-form validate-form">
 
 					<div class="text-center p-t-55 p-b-30">
 						<span class="txt1">
@@ -97,8 +97,8 @@
 					</div>
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							CONFIRMAR
+						<button type="submit" class="login100-form-btn">
+							CADASTRAR
 						</button>
 					</div>
 					

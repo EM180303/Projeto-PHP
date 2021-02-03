@@ -1,5 +1,5 @@
 <?php
-
+/*
 session_start();
 $usuario_autenticado = false;
 
@@ -21,3 +21,4 @@ if($usuario_autenticado){
     $_SESSION['validado'] = 'NÃO';
     header('Location:index.php?login=erro');
 }
+*/

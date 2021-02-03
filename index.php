@@ -55,7 +55,7 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-t-90 p-b-30">
-				<form action="valid_login.php" method="POST" class="login100-form validate-form">
+				<form action="v_login.php" method="POST" class="login100-form validate-form">
 
 					<div class="text-center p-t-55 p-b-30">
 						<span class="txt1">

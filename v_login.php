@@ -26,8 +26,8 @@ foreach($usuarios as $user){
 
 if($usuario_autenticado){
     $_SESSION['validado'] = 'SIM';
-    header('Location:home.php');
+    header('Location:index.php');
 } else{
     $_SESSION['validado'] = 'NÃO';
-    header('Location:index.php?login=erro1');
+    header('Location:login.php?login=erro');
 }

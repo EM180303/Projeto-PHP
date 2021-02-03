@@ -1,26 +1,20 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feira em Casa</title>
-
-    <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Feira em Casa</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/shop-homepage.css" rel="stylesheet">
-
-  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-
-  <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<title>Feira em Casa</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="imagens/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
 <!--===============================================================================================-->	
 	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
 <!--===============================================================================================-->
@@ -32,55 +26,47 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-
-  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 </head>
 <body>
-  <!-- Page Content -->
-    <div class="container">
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <div class="container">
-            <a class="navbar-brand" href="index.php">Feira em Casa</a>
-            <a href="index.php"><img src="imagens/logo-75.png" alt="Logo" width="50"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php">Página inicial
-                    <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.php">Login
-                    <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                </ul>
-            </div>
-            </div>
-        </nav>
-    </div>
-    <div class="limiter">
+
+	<!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.php">Feira em Casa</a>
+          <a href="index.php"><img src="imagens/logo-75.png" alt="Logo" width="50"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+		  <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+			  <li class="nav-item">
+                            <a class="nav-link" href="index.php">Página inicial
+                            <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+              <li class="nav-item">
+                <a class="nav-link" href="logoff.php">Sair
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+    </nav>
+	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-t-90 p-b-30">
-				<form action="cadastrar.php" method="POST" class="login100-form validate-form">
+				<form action="v_login.php" method="POST" class="login100-form validate-form">
 
 					<div class="text-center p-t-55 p-b-30">
 						<span class="txt1">
 							<h1>
-								CADASTRO
+								Login
 							</h1>
 						</span>
-					</div>
-
-                    <div class="wrap-input100 validate-input m-b-16" data-validate="Digite seu nome">
-						<input class="input100" type="text" name="name" placeholder="Nome">
-						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input m-b-16" data-validate="Digite seu email: ex@abc.xyz">
@@ -96,19 +82,31 @@
 						<span class="focus-input100"></span>
 					</div>
 
+					<?php if (isset($_GET['login']) && $_GET['login'] == 'erro') { ?>
+						<div class="text-danger">
+						Email ou senha inválidos!
+						</div>
+					<?php } ?>
+
+					<?php if (isset($_GET['login']) && $_GET['login'] == 'erro1') { ?>
+						<div class="text-danger">
+						Faça o login para acessar a página!
+						</div>
+					<?php } ?>
+
 					<div class="container-login100-form-btn">
-						<button type="submit" class="login100-form-btn">
-							CADASTRAR
+						<button class="login100-form-btn">
+							CONFIRMAR
 						</button>
 					</div>
 					
-					<div class="flex-col-c p-t-35">
+					<div class="flex-col-c p-t-100">
 						<span class="txt2 p-b-10">
-							Já possui uma conta?
+							Não possui uma conta?
 						</span>
 
-						<a href="login.php" class="txt3 bo1 hov1">
-							LOGIN
+						<a href="cadastro.php" class="txt3 bo1 hov1">
+							CADASTRE-SE
 						</a>
 					</div>
 					
@@ -142,5 +140,6 @@
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
+
 </body>
 </html>

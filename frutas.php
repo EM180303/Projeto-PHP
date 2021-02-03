@@ -1,5 +1,5 @@
 <?php
-require "valid_navegacao.php";
+
 require "nav.php";
 ?>
 
@@ -21,7 +21,7 @@ require "nav.php";
 
         <h1 class="my-4">Frutas</h1>
         <div class="list-group">
-        <a href="home.php" class="list-group-item">Página inicial</a>
+        <a href="index.php" class="list-group-item">Página inicial</a>
           <a href="frutas.php" class="list-group-item" style="background-color: #E8E1DF;">Frutas</a>
           <a href="verduras.php" class="list-group-item">Verduras / Legumes</a>
           <a href="folhagens.php" class="list-group-item">Folhagens</a>

@@ -83,6 +83,26 @@
 						<span class="focus-input100"></span>
 					</div>
 
+					<div class="wrap-input100 validate-input m-b-16" data-validate="Digite seu sobrnome">
+						<input class="input100" type="text" name="surname" placeholder="Sobreome">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-16" data-validate="Digite sua idade">
+						<input class="input100" type="number" name="yers" placeholder="Idade">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-16" data-validate="Digite seu n° de telefone: (00)000000000">
+						<input class="input100" type="text" name="call" placeholder="Telefone: (00)000000000">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input m-b-16" data-validate="Digite seu Cep : 00000-000">
+						<input class="input100" type="text" name="cep" placeholder="Cep: 00000-000">
+						<span class="focus-input100"></span>
+					</div>
+
 					<div class="wrap-input100 validate-input m-b-16" data-validate="Digite seu email: ex@abc.xyz">
 						<input class="input100" type="text" name="email" placeholder="Email">
 						<span class="focus-input100"></span>
@@ -95,6 +115,12 @@
 						<input class="input100" type="password" name="pass" placeholder="Senha">
 						<span class="focus-input100"></span>
 					</div>
+
+					<?php if (isset($_GET['login']) && $_GET['login'] == 'igual') { ?>
+						<div class="text-danger">
+						Tente novamente com um email diferente
+						</div>
+					<?php } ?>
 
 					<div class="container-login100-form-btn">
 						<button type="submit" class="login100-form-btn">

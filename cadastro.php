@@ -78,6 +78,12 @@
 						</span>
 					</div>
 
+					<?php if (isset($_GET['login']) && $_GET['login'] == 'igual') { ?>
+						<div class="text-danger">
+						Tente novamente com um email diferente!
+						</div>
+					<?php } ?>
+
                     <div class="wrap-input100 validate-input m-b-16" data-validate="Digite seu nome">
 						<input class="input100" type="text" name="name" placeholder="Nome">
 						<span class="focus-input100"></span>
@@ -112,15 +118,9 @@
 						<span class="btn-show-pass">
 							<i class="fa fa fa-eye"></i>
 						</span>
-						<input class="input100" type="password" name="pass" placeholder="Senha">
+						<input class="input100" type="password" name="pass" placeholder="Senha (até 6 caracteres)">
 						<span class="focus-input100"></span>
 					</div>
-
-					<?php if (isset($_GET['login']) && $_GET['login'] == 'igual') { ?>
-						<div class="text-danger">
-						Tente novamente com um email diferente
-						</div>
-					<?php } ?>
 
 					<div class="container-login100-form-btn">
 						<button type="submit" class="login100-form-btn">

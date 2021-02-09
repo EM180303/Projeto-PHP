@@ -27,7 +27,7 @@ require "nav.php";
             <p class="card-text">R$ 6,50 Kg</p>
             <p id="valortotal"> Valor a ser pago: R$ 6,50</p>
             <p>Quantidade:</p>
-            <input class="btn btn-dark" type="number" id="repolho" onblur="valorProduto();">
+            <input class="btn btn-secondary" placeholder="Adicione a quantidade" type="number" id="repolho" onblur="valorProduto();">
             <input class="btn btn-primary" type="button" onclick="valorProduto();" value="Calcular">
             <br>
             <br>

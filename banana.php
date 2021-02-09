@@ -1,6 +1,7 @@
 <?php
 require "valid_navegacao.php";
 require "nav.php";
+
 ?>
 
 <html lang="pt-BR">
@@ -9,8 +10,9 @@ require "nav.php";
    function valorProduto(){
      var total = 0;
      var num = document.getElementById("banana").value;
-     total = 0.25 * num;
-     document.getElementById("valortotal").textContent = "Valor a ser pago: R$ " + total;
+     result = 0.25 * num;
+     total = result.toFixed(2);
+     document.getElementById("valortotal").textContent = "VALOR A SER PAGO: R$ " + total;
    }
    </script> 
 </head>
@@ -25,25 +27,27 @@ require "nav.php";
         <div class="card" style="width: 18rem;">
           <img src="imagens/banana.jpg" class="card-img-top" alt="banana">
           <div class="card-body">
-            <h5 class="card-title">Banana Maçã</h5>
-            <p class="card-text">R$ 0,25 Und.</p>
-            <p id="valortotal"> Valor a ser pago: R$ 0.25</p>
-            <p>Quantidade:</p>
-            <input class="btn btn-secondary" placeholder="Adicione a quantidade" type="number" id="banana" onblur="valorProduto();">
-            <input class="btn btn-primary" type="button" onclick="valorProduto();" value="Calcular">
-            <br>
-            <br>
-            <form action="sucesso.php">
-              <button class="btn btn-success">Adicionar ao carrinho</button>
-            </form>
-            <br>
-            <div class="row">
-              <div class="col-sm"></div>
-              <div class="col-sm">
-                <a class="btn btn-danger" href="frutas.php">Cancelar</a>
+            <form action="sucesso.php" method="POST">
+              <h5 class="card-title"><input type="text" name="produto" value="Banana Maçã"></h5>
+              
+              <p name="valor" class="card-text">Preço por unidade R$: <input type="text" name="valor" value=0.25></p>
+              <p id="valortotal"> Valor a ser pago: R$ 0.00</p>
+              <p>Quantidade:</p>
+              <input name="quantidade" class="btn btn-secondary" placeholder="Adicione a quantidade" type="number" id="banana" onblur="valorProduto();">
+              <input class="btn btn-primary" type="button" onclick="valorProduto();" value="Calcular">
+              <br>
+              <br>
+                <button class="btn btn-success">Adicionar ao carrinho</button>
+              <br>
+              <br>
+              <div class="row">
+                <div class="col-sm"></div>
+                <div class="col-sm">
+                  <a class="btn btn-danger" href="frutas.php">Cancelar</a>
+                </div>
+                <div class="col-sm"></div>
               </div>
-              <div class="col-sm"></div>
-            </div>
+            </form>
           </div>
         </div>
       </div> 
@@ -51,6 +55,7 @@ require "nav.php";
       <div class="col-sm"></div>
     </div>
   </div>
+  <br>
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">

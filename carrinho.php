@@ -1,6 +1,8 @@
 <?php
+
 require "valid_navegacao.php";
-?>
+?> 
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>

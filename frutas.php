@@ -1,6 +1,7 @@
 <?php
 
 require "nav.php";
+
 ?>
 
 <html>

@@ -75,8 +75,38 @@ require "valid_navegacao.php";
                 </div>
             </div>
         </nav>
+        <div class="row">
+            <div class="col-lg-3">
 
+                <h1 class="my-4">Carrinho</h1>
+                <div class="list-group">
+                    <a href="carrinho.php" class="list-group-item" style="background-color: #E8E1DF;">Carrinho</a>
+                    <a href="pedidos.php" class="list-group-item">Pedididos</a>
+                </div>
+            </div>
+
+            <div class="col-lg-9"
+            >
+                <div class="row">
+
+                    <div style="text-align:center" class=" center col-md-8 mb-6">
+                        <br>
+                            <h1>Seu carrinho<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                        </svg></h1>
+                        <hr>
+                        <div class="card">
+                            <h2>
+                                conteudo
+                            </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus exercitationem incidunt soluta expedita optio molestias nam est, ipsa reiciendis nobis fuga? Fugit blanditiis at consectetur illum delectus quod qui magnam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <br>
     <footer class="py-5 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Feira em Casa 2021</p>

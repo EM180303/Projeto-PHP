@@ -15,7 +15,7 @@ if($resultado->num_rows > 0){
         $_SESSION['nome'] = $row['us_nome'];
         $_SESSION['validado'] = 'SIM';
         echo ("<script>
-          window.alert('Login realizado com Sucesso!')
+          window.alert('Login realizado com sucesso!')
           window.location.href='index.php';
       </script>");
 

@@ -27,7 +27,7 @@ if ($registeredEmail) {
     $conect->close();
     $_SESSION['validado'] = 'SIM';
     echo ("<script>
-          window.alert('Cadastro realizado com Sucesso!')
+          window.alert('Cadastro realizado com sucesso!')
           window.location.href='index.php';
       </script>");  
   }

@@ -8,8 +8,9 @@ require "nav.php";
    function valorProduto(){
      var total = 0;
      var num = document.getElementById("uva").value;
-     total = 8.50 * num;
-     document.getElementById("valortotal").textContent = "Valor a ser pago: R$ " + total;
+     result = 8.50 * num;
+     total = result.toFixed(2);
+     document.getElementById("valortotal").textContent = "VALOR A SER PAGO: R$ " + total;
    }
    </script> 
 </head>
@@ -24,25 +25,27 @@ require "nav.php";
         <div class="card" style="width: 18rem;">
           <img src="imagens/uva.jpg" class="card-img-top" alt="uva">
           <div class="card-body">
-            <h5 class="card-title">Uva Roxa</h5>
-            <p class="card-text">R$ 8,50 Kg</p>
-            <p id="valortotal"> Valor a ser pago: R$ 8,50</p>
-            <p>Quantidade:</p>
-            <input class="btn btn-secondary" placeholder="Adicione a quantidade" type="number" id="uva" onblur="valorProduto();">
-            <input class="btn btn-primary" type="button" onclick="valorProduto();" value="Calcular">
-            <br>
-            <br>
-            <form action="sucesso.php">
-              <button class="btn btn-success">Adicionar ao carrinho</button>
-            </form>
-            <br>
-            <div class="row">
-              <div class="col-sm"></div>
-              <div class="col-sm">
-                <a class="btn btn-danger" href="frutas.php">Cancelar</a>
+            <form action="sucesso.php" method="POST">
+              <h5 class="card-title"><input name="produto" type="text" value="Uva Roxa"></h5>
+              <p class="card-text">Valor por Kg R$: <input name="valor" type="text" value="8.50"></p>
+              <p id="valortotal"> Valor a ser pago: R$ 0.00</p>
+              <p>Quantidade:</p>
+              <input name="quantidade" class="btn btn-secondary" placeholder="Adicione a quantidade" type="number" id="uva" onblur="valorProduto();">
+              <input class="btn btn-primary" type="button" onclick="valorProduto();" value="Calcular">
+              <br>
+              <br>
+              <form action="sucesso.php">
+                <button class="btn btn-success">Adicionar ao carrinho</button>
+              </form>
+              <br>
+              <div class="row">
+                <div class="col-sm"></div>
+                <div class="col-sm">
+                  <a class="btn btn-danger" href="frutas.php">Cancelar</a>
+                </div>
+                <div class="col-sm"></div>
               </div>
-              <div class="col-sm"></div>
-            </div>
+            </form>
           </div>
         </div>
       </div> 

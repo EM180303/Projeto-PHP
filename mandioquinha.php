@@ -7,8 +7,9 @@ require "nav.php";
    function valorProduto(){
      var total = 0;
      var num = document.getElementById("mandioquinha").value;
-     total = 19.99 * num;
-     document.getElementById("valortotal").textContent = "Valor a ser pago: R$ " + total;
+     result = 19.99 * num;
+     total = result.toFixed(2);
+     document.getElementById("valortotal").textContent = "VALOR A SER PAGO: R$ " + total;
    }
    </script> 
 </head>
@@ -23,25 +24,27 @@ require "nav.php";
         <div class="card" style="width: 18rem;">
           <img src="imagens/mandioquinha.jpg" class="card-img-top" alt="mandioquinha">
           <div class="card-body">
-            <h5 class="card-title">Mandioquinha</h5>
-            <p class="card-text">R$ 19,99 Kg</p>
-            <p id="valortotal"> Valor a ser pago: R$ 19,99</p>
-            <p>Quantidade:</p>
-            <input class="btn btn-secondary" placeholder="Adicione a quantidade" type="number" id="mandioquinha" onblur="valorProduto();">
-            <input class="btn btn-primary" type="button" onclick="valorProduto();" value="Calcular">
-            <br>
-            <br>
-            <form action="sucesso.php">
-              <button class="btn btn-success">Adicionar ao carrinho</button>
-            </form>
-            <br>
-            <div class="row">
-              <div class="col-sm"></div>
-              <div class="col-sm">
-                <a class="btn btn-danger" href="raizes.php">Cancelar</a>
+            <form action="sucesso.php" method="POST">
+              <h5 class="card-title"><input name="produto" type="text" value="Mandioquinha"></h5>
+              <p class="card-text">Valor por Kg R$: <input name="valor" type="text" value="19.99"></p>
+              <p id="valortotal"> Valor a ser pago: R$ 0.00</p>
+              <p>Quantidade:</p>
+              <input name="quantidade" class="btn btn-secondary" placeholder="Adicione a quantidade" type="number" id="mandioquinha" onblur="valorProduto();">
+              <input class="btn btn-primary" type="button" onclick="valorProduto();" value="Calcular">
+              <br>
+              <br>
+              <form action="sucesso.php">
+                <button class="btn btn-success">Adicionar ao carrinho</button>
+              </form>
+              <br>
+              <div class="row">
+                <div class="col-sm"></div>
+                <div class="col-sm">
+                  <a class="btn btn-danger" href="raizes.php">Cancelar</a>
+                </div>
+                <div class="col-sm"></div>
               </div>
-              <div class="col-sm"></div>
-            </div>
+            </form>
           </div>
         </div>
       </div> 

@@ -2,11 +2,7 @@
     header ( 'Access-Control-Allow-Origin: *' );
     require "valid_navegacao.php";
     require "conexao.php";
-
-    if (! isset ( $_SESSION [ 'carrinho' ])) {
-        $_SESSION [ 'carrinho' ] = array ();
-      }
-
+    
     $produto = $_POST['produto'];
     $valor = $_POST['valor'];
     $quantidade = $_POST['quantidade'];
@@ -20,6 +16,9 @@
     $stmt->execute();
     $conect->close();
 
+    if (! isset ( $_SESSION [ 'carrinho'])) {
+      $_SESSION ['carrinho' ] = array ();
+    }
     array_push($_SESSION['carrinho'], $_POST);
 
     echo ("<script>

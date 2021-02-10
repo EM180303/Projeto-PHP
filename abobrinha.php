@@ -30,13 +30,12 @@ require "nav.php";
               <p class="card-text">Valor por Kg R$: <input  name="valor"type="text" value=4.80> </input></p>
               <p id="valortotal"> Valor a ser pago: R$ 0.00</p>
               <p>Quantidade:</p>
-              <input name="quantidade"class="btn btn-secondary" placeholder="Adicione a quantidade" type="number" id="abobrinha" onblur="valorProduto();">
+              <input name="quantidade" class="btn btn-secondary" placeholder="Adicione a quantidade" type="number" id="abobrinha" onblur="valorProduto();">
               <input  class="btn btn-primary" type="button" onclick="valorProduto();" value="Calcular">
               <br>
               <br>
-              <form action="sucesso.php">
                 <button class="btn btn-success">Adicionar ao carrinho</button>
-              </form>
+              <br>
               <br>
               <div class="row">
                 <div class="col-sm"></div>

@@ -1,7 +1,24 @@
 <?php
 require "valid_navegacao.php";
-require "nav.php"
+require "nav.php";
+require "conexao.php";
+
+$us_id = $_SESSION['idusuario'];
+$query_ = "SELECT * FROM carrinho WHERE ce_ca_id = '$us_id'";
+$resultado = $conect->query($query_);
+$pedidos = array();
+
+if ($resultado->num_rows > 0) {
+  while ($row = $resultado->fetch_assoc()) {
+    
+    $pedidos[] = $row['ca_produto'] . '#' . $row['ca_quantidade'] . "#" . $row['ca_valor'] . "#" . $row['ca_valor_pg'] . "#" . $row['ce_ca_id'];
+  }
+  $conect->close();
+
+}
+
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -30,10 +47,14 @@ require "nav.php"
             <h1>Seus pedidos</h1>
             <hr>
             <div class="card">
-              <h2>
-                conteudo
-              </h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus exercitationem incidunt soluta expedita optio molestias nam est, ipsa reiciendis nobis fuga? Fugit blanditiis at consectetur illum delectus quod qui magnam.</p>
+            <?php
+
+            foreach ($pedidos as $dados) {
+              $pedidos = explode('#', $dados);
+            
+              echo '<p>'.$dados.'</p>';
+            }
+              ?>
             </div>
           </div>
         </div>

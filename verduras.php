@@ -55,7 +55,7 @@ require "nav.php";
                     Abobrinha
                   </h3></a>
                 </h4>
-                <h5>R$4,80 Kg</h5>
+                <h5>R$4.80 Kg</h5>
                 <p class="card-text">Abobrinha, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -70,7 +70,7 @@ require "nav.php";
                     Cebola
                   </h3></a>
                 </h4>
-                <h5>R$3,25 Kg</h5>
+                <h5>R$3.25 Kg</h5>
                 <p class="card-text">Cebola, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -85,7 +85,7 @@ require "nav.php";
                     Chuchu
                   </h3></a>
                 </h4>
-                <h5>R$1,50 Und.</h5>
+                <h5>R$1.50 Und.</h5>
                 <p class="card-text">Chuchu, cultivado sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -100,7 +100,7 @@ require "nav.php";
                     Pepino
                   </h3></a>
                 </h4>
-                <h5>R$2,20 Kg</h5>
+                <h5>R$2.20 Kg</h5>
                 <p class="card-text">Pepino Japonês, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -115,7 +115,7 @@ require "nav.php";
                     Tomate
                   </h3></a>
                 </h4>
-                <h5>R$20,99 Kg</h5>
+                <h5>R$20.99 Kg</h5>
                 <p class="card-text">Tomate Cereja, cultivado sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>

@@ -30,7 +30,7 @@ require "nav.php";
             <form action="sucesso.php" method="POST">
               <h5 class="card-title"><input type="text" name="produto" value="Banana Maçã"></h5>
               
-              <p name="valor" class="card-text">Preço por unidade R$: <input type="text" name="valor" value=0.25></p>
+              <p class="card-text">Preço por unidade R$: <input type="text" name="valor" value=0.25></p>
               <p id="valortotal"> Valor a ser pago: R$ 0.00</p>
               <p>Quantidade:</p>
               <input name="quantidade" class="btn btn-secondary" placeholder="Adicione a quantidade" type="number" id="banana" onblur="valorProduto();">

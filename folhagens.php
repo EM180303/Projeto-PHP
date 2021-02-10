@@ -55,7 +55,7 @@ require "nav.php";
                     Alface
                   </h3></a>
                 </h4>
-                <h5>R$2,59 Und.</h5>
+                <h5>R$2.59 Und.</h5>
                 <p class="card-text">Alface Lisa, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -70,7 +70,7 @@ require "nav.php";
                     Coentro
                   </h3></a>
                 </h4>
-                <h5>R$2,40 Und.</h5>
+                <h5>R$2.40 Und.</h5>
                 <p class="card-text">Coentro, cultivado sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -85,7 +85,7 @@ require "nav.php";
                     Couve-Flor
                   </h3></a>
                 </h4>
-                <h5>R$10,99 Und.</h5>
+                <h5>R$10.99 Und.</h5>
                 <p class="card-text">Couve-Flor, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -100,7 +100,7 @@ require "nav.php";
                     Hortelã
                   </h3></a>
                 </h4>
-                <h5>R$3,50 Und.</h5>
+                <h5>R$3.50 Und.</h5>
                 <p class="card-text">Hortelã, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -115,7 +115,7 @@ require "nav.php";
                     Repolho
                   </h3></a>
                 </h4>
-                <h5>R$6,50 Kg</h5>
+                <h5>R$6.50 Kg</h5>
                 <p class="card-text">Repolho, cultivado sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>

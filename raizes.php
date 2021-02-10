@@ -55,7 +55,7 @@ require "nav.php";
                     Batata Doce
                   </h3></a>
                 </h4>
-                <h5>R$3,59 Kg</h5>
+                <h5>R$3.59 Kg</h5>
                 <p class="card-text">Batata Doce, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -70,7 +70,7 @@ require "nav.php";
                     Cará
                   </h3></a>
                 </h4>
-                <h5>R$4,29 Kg</h5>
+                <h5>R$4.29 Kg</h5>
                 <p class="card-text">Cará São Tomé, cultivado sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -85,7 +85,7 @@ require "nav.php";
                     Inhame
                   </h3></a>
                 </h4>
-                <h5>R$9,50 Kg</h5>
+                <h5>R$9.50 Kg</h5>
                 <p class="card-text">Inhame, cultivado sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -100,7 +100,7 @@ require "nav.php";
                     Macaxeira
                   </h3></a>
                 </h4>
-                <h5>R$3,10 Kg</h5>
+                <h5>R$3.10 Kg</h5>
                 <p class="card-text">Macaxeira, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -115,7 +115,7 @@ require "nav.php";
                     Mandioquinha
                   </h3></a>
                 </h4>
-                <h5>R$19,99 Kg</h5>
+                <h5>R$19.99 Kg</h5>
                 <p class="card-text">Mandioquinha, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>

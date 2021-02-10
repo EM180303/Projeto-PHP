@@ -55,7 +55,7 @@ require "nav.php";
                     Banana
                   </h3></a>
                 </h4>
-                <h5>R$0,25 Und.</h5>
+                <h5>R$0.25 Und.</h5>
                 <p class="card-text">Banana Maçâ, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -70,7 +70,7 @@ require "nav.php";
                     Laranja
                   </h3></a>
                 </h4>
-                <h5>R$0,50 Und.</h5>
+                <h5>R$0.50 Und.</h5>
                 <p class="card-text">Laranja Bahia, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -85,7 +85,7 @@ require "nav.php";
                     Maçã
                   </h3></a>
                 </h4>
-                <h5>R$0,80 Und.</h5>
+                <h5>R$0.80 Und.</h5>
                 <p class="card-text">Maçã Gala, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -100,7 +100,7 @@ require "nav.php";
                     Melancia
                   </h3></a>
                 </h4>
-                <h5>R$7,00 Kg</h5>
+                <h5>R$7.00 Kg</h5>
                 <p class="card-text">Melancia, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>
@@ -115,7 +115,7 @@ require "nav.php";
                     Uva
                   </h3></a>
                 </h4>
-                <h5>R$8,50 Kg</h5>
+                <h5>R$8.50 Kg</h5>
                 <p class="card-text">Uva Roxa, cultivada sem agrotóxicos, nem conservantes.</p>
               </div>
             </div>

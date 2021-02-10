@@ -104,8 +104,17 @@ require "valid_navegacao.php";
                         <br>
                         <div class="card">
                             <?php
+                            $total = 0;
                             if(isset($_SESSION['carrinho'])){
-                                print_r($_SESSION['carrinho']);
+                                foreach ($_SESSION['carrinho'] as $key => $value) :
+                                    $pg = ($value['valor'] * $value['quantidade']);
+                                    $total = $pg + $total;
+                                    echo '<p>Produto: '.$value['produto'].' | Quantidade: '.$value['quantidade'].' | Preço do produto: R$ '.$value['valor'].' | Valor a ser pago: R$ '.$pg.'</p>';
+                                    
+                                 endforeach;
+
+                                echo'Valor total da compra: R$ '.$total.''; 
+
                             } else{
                                 print_r('Seu carrinho está vazio');
                             }
@@ -124,7 +133,7 @@ require "valid_navegacao.php";
         </div>
     </div>
     <br>
-    <footer class="py-5 bg-dark">
+    <footer class="py-5 bg-dark" style="margin-top: 175px;">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Feira em Casa 2021</p>
     </div>

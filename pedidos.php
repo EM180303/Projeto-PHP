@@ -42,7 +42,7 @@ require "nav.php"
 
   </div>
   <br>
-    <footer class="py-5 bg-dark">
+    <footer class="py-5 bg-dark" style="margin-top: 255px;">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Feira em Casa 2021</p>
     </div>

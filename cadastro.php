@@ -85,7 +85,7 @@
 					<?php } ?>
 
                     <div class="wrap-input100 validate-input m-b-16" data-validate="Digite seu nome">
-						<input class="input100" type="text" name="name" placeholder="Nome">
+						<input class="input100" type="text" name="name" placeholder="Primeiro nome">
 						<span class="focus-input100"></span>
 					</div>
 

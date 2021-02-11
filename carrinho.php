@@ -98,35 +98,54 @@ require "valid_navegacao.php";
                         </svg></h1>
                         <hr>
 
-                        <div class="col-sm">
-                            <a class="btn btn-info" href="index.php">Continuar comprando</a>
-                        </div>
                         <br>
                         <div class="card">
                             <?php
                             $total = 0;
-                            if(isset($_SESSION['carrinho'])){
+                            if(isset($_SESSION['carrinho'])) { ?>
+                                <br>
+                                <div class="col-sm">
+                                <a class="btn btn-info" href="index.php">Continuar comprando</a>
+                                <br>
+                                
+                            </div>
+                                <br>
+                                <br>
+                               
+                            <?php
                                 foreach ($_SESSION['carrinho'] as $key => $value) :
                                     $pg = ($value['valor'] * $value['quantidade']);
                                     $total = $pg + $total;
                                     echo '<p>Produto: '.$value['produto'].' | Quantidade: '.$value['quantidade'].' | Preço do produto: R$ '.$value['valor'].' | Valor a ser pago: R$ '.$pg.'</p>';
                                     
                                  endforeach;
-
+                                 
                                 echo'Valor total da compra: R$ '.$total.''; 
 
-                            } else{
+                                ?>
+                                <br>
+                                <div class="col-sm">
+                                <br>
+                                <a href="finalizar.php"><button class="btn btn-success">Finalizar compra</button></a>
+                            </div>
+                                 <br>
+                          <?php  } else{ ?>
+                          <br>
+                               <div class="col-sm">
+                               <a class="btn btn-info" href="index.php">Comprar</a>
+                           </div>
+                           <br>
+                           <br>
+                           <?php
                                 print_r('Seu carrinho está vazio! <br>');
                                 print_r('Então vamos enchê-lo já!');
                                 print_r('<a href="index.php">Click aqui para ver os produtos disponíveis na loja</a>');
 
                             }
                             ?>
+                            <br>
                         </div>
                         <br>
-                        <div class="col-sm">
-                            <button class="btn btn-success">Finalizar compra</button>
-                        </div>
                         <br>  
                             </div>
                        

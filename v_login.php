@@ -22,6 +22,6 @@ if($resultado->num_rows > 0){
     }
 } else{
     $_SESSION['validado'] = 'NÃO';
-    header('Location:index.php?login=erro1');
+    header('Location:login.php?login=erro');
 }
 $conect->close();

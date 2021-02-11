@@ -13,9 +13,15 @@ if ($resultado->num_rows > 0) {
     
     $pedidos[] = $row['ca_produto'] . '#' . $row['ca_quantidade'] . "#" . $row['ca_valor'] . "#" . $row['ca_valor_pg'] . "#" . $row['ce_ca_id'];
   }
-  $conect->close();
 
+} else {
+
+  echo ( "<script>
+        window.alert ('Você ainda não possui nenhum pedido!')
+        window.location.href = 'index.php';
+    </script> " );
 }
+$conect->close();
 
 ?>
 

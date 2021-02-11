@@ -11,7 +11,7 @@ $pedidos = array();
 if ($resultado->num_rows > 0) {
   while ($row = $resultado->fetch_assoc()) {
     
-    $pedidos[] = $row['ca_produto'] . '#' . $row['ca_quantidade'] . "#" . $row['ca_valor'] . "#" . $row['ca_valor_pg'] . "#" . $row['ce_ca_id'];
+    $pedidos[] = "Produto: ".$row['ca_produto'] . " Quantidade: " . $row['ca_quantidade'] . " Preço do produto: R$ " . $row['ca_valor'] . " Valor pago: R$ " . $row['ca_valor_pg'];
   }
 
 } else {
@@ -56,7 +56,7 @@ $conect->close();
             <?php
 
             foreach ($pedidos as $dados) {
-              $pedidos = explode('#', $dados);
+              #$pedidos = explode('#', $dados);
             
               echo '<p>'.$dados.'</p>';
             }

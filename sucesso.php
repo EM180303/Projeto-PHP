@@ -11,8 +11,10 @@
     
     $us_id = $_SESSION['idusuario'];
     
-    $stmt = $conect ->prepare("INSERT INTO carrinho (ce_ca_id,ca_produto,ca_quantidade,ca_valor,ca_valor_pg) VALUES (?,?,?,?,?)");
-    $stmt->bind_param("isiss", $us_id, $produto, $quantidade, $valor, $valor_pg);
+    $data = date('ymd');
+
+    $stmt = $conect ->prepare("INSERT INTO carrinho (ce_ca_id,ca_produto,ca_quantidade,ca_valor,ca_valor_pg,ca_data) VALUES (?,?,?,?,?,?)");
+    $stmt->bind_param("isissd", $us_id, $produto, $quantidade, $valor, $valor_pg, $data);
     $stmt->execute();
     $conect->close();
 

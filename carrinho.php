@@ -107,11 +107,11 @@ require "valid_navegacao.php";
                                 <div class="col-sm">
                                 <a class="btn btn-info" href="index.php">Continuar comprando</a>
                                 <br>
-                                
+                                <br>
                             </div>
                                 <br>
                                 <br>
-                               
+                               <br>
                             <?php
                                 foreach ($_SESSION['carrinho'] as $key => $value) :
                                     $pg = ($value['valor'] * $value['quantidade']);
@@ -124,11 +124,17 @@ require "valid_navegacao.php";
 
                                 ?>
                                 <br>
-                                <div class="col-sm">
-                                <br>
-                                <a href="finalizar.php"><button class="btn btn-success">Finalizar compra</button></a>
+                            <div class="col ">
+                                <div class="col order-last">
+                                    <br>
+                                    <a href="finalizar.php"><button class="btn btn-success">Finalizar compra</button></a>
+                                </div>
+                                <div class="col order-first">
+                                    <br>
+                                    <a href=""><button class="btn btn-danger">Deletar carrinho</button></a>
+                                </div>
                             </div>
-                                 <br>
+                                 
                           <?php  } else{ ?>
                           <br>
                                <div class="col-sm">

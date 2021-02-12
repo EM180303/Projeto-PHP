@@ -5,7 +5,7 @@ require "valid_navegacao.php";
 require "conexao.php";
 
 $total = 0;
-#if (isset ($_GET['cart']) && $_GET['cart'] == 'ok'){
+
     foreach ($_SESSION['carrinho'] as $key => $value) :
         $pg = ($value['valor'] * $value['quantidade']);
         $total = $pg + $total;
@@ -28,21 +28,9 @@ $total = 0;
         
 
     endforeach;
-#}
+
 $conect->close();
  
 echo'Valor total da compra: R$ '.$total.''; 
 
-/*
-if (! isset ( $_SESSION [ 'carrinho'])) {
-  $_SESSION ['carrinho' ] = array ();
-}
-array_push($_SESSION['carrinho'], $_POST);
-*/
-
-
-/*echo ("<script>
-      window.alert('Produto adicionado ao carrinho com sucesso!')
-      window.location.href='carrinho.php';
-    </script>"); 
-    */ 
+    

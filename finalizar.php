@@ -19,18 +19,12 @@ $total = 0;
         $valor = $value['valor'];
         $valor_pg = $valor * $quantidade;
 
-        print_r($_SESSION['carrinho'], $us_id);
-        print_r($data, $valor_pg);
-
         $stmt = $conect ->prepare("INSERT INTO carrinho (ce_ca_id,ca_produto,ca_quantidade,ca_valor,ca_valor_pg,ca_data) VALUES (?,?,?,?,?,?)");
         $stmt->bind_param("isissd", $us_id, $produto, $quantidade, $valor, $valor_pg, $data);
-        $stmt->execute();
-        
+        $stmt->execute();    
 
     endforeach;
 
 $conect->close();
  
-echo'Valor total da compra: R$ '.$total.''; 
-
-    
+unset($_SESSION['carrinho']);

@@ -2,4 +2,4 @@
 session_start();
 
 session_destroy();
-header('Location:index.php?deslogado');
+header('Location:login.php?deslogado');

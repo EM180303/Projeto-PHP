@@ -131,7 +131,7 @@ require "valid_navegacao.php";
                                 </div>
                                 <div class="col order-first">
                                     <br>
-                                    <a href=""><button class="btn btn-danger">Deletar carrinho</button></a>
+                                    <a href="cancelar.php"><button class="btn btn-danger">Deletar carrinho</button></a>
                                 </div>
                             </div>
                                  
@@ -161,7 +161,7 @@ require "valid_navegacao.php";
         </div>
     </div>
     <br>
-    <footer class="py-5 bg-dark" style="margin-top: 155px;">
+    <footer class="py-5 bg-dark" style="margin-top: 150px;">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Feira em Casa 2021</p>
     </div>

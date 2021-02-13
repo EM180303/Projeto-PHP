@@ -11,7 +11,7 @@ $pedidos = array();
 if ($resultado->num_rows > 0) {
   while ($row = $resultado->fetch_assoc()) {
     
-    $pedidos[] = "Produto: ".$row['ca_produto'] . " Quantidade: " . $row['ca_quantidade'] . " Preço do produto: R$ " . $row['ca_valor'] . " Valor pago: R$ " . $row['ca_valor_pg'];
+    $pedidos[] = "Produto: ".$row['ca_produto'] . " || Quantidade: " . $row['ca_quantidade'] . " || Preço do produto: R$ " . $row['ca_valor'] . " || Valor pago: R$ " . $row['ca_valor_pg'];
   }
 
 } else {
@@ -69,7 +69,7 @@ $conect->close();
 
   </div>
   <br>
-    <footer class="py-5 bg-dark" style="margin-top: 255px;">
+    <footer class="py-5 bg-dark" style="margin-top: 275px;">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Feira em Casa 2021</p>
     </div>

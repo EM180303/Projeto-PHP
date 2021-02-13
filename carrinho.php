@@ -87,8 +87,8 @@ require "valid_navegacao.php";
                 </div>
             </div>
 
-            <div class="col-lg-9"
-            >
+            <div class="col-lg-9">
+            
                 <div class="row">
 
                     <div style="text-align:center" class=" center col-md-8 mb-6">
@@ -117,6 +117,7 @@ require "valid_navegacao.php";
                                     $pg = ($value['valor'] * $value['quantidade']);
                                     $total = $pg + $total;
                                     echo '<p>Produto: '.$value['produto'].' | Quantidade: '.$value['quantidade'].' | Preço do produto: R$ '.$value['valor'].' | Valor a ser pago: R$ '.$pg.'</p>';
+                                    echo '<hr>';
                                     
                                  endforeach;
                                  

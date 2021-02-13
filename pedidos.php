@@ -59,6 +59,7 @@ $conect->close();
               #$pedidos = explode('#', $dados);
             
               echo '<p>'.$dados.'</p>';
+              echo '<hr>';
             }
               ?>
             </div>

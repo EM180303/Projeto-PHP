@@ -132,7 +132,6 @@ require "valid_navegacao.php";
 
         <div class="row">
             <div class="col-lg-3">
-
                
             </div>
 
@@ -148,7 +147,7 @@ require "valid_navegacao.php";
                         <br>
                         <div class="card">
                            
-    <form action="" method="POST" class="login100-form validate-form">
+    <form action="pedidos.php" method="POST" class="login100-form validate-form">
 
 
 <div class="wrap-input100 validate-input m-b-16" data-validate="Digite o nome do destinatário">
@@ -200,9 +199,19 @@ require "valid_navegacao.php";
     <button type="submit" class="btn">
         Confirmar
     </button>
+    
 </div>
 
 </form>
+
+<?php
+        if (! isset ( $_SESSION [ 'dadosp'])) {
+            $_SESSION ['dadosp' ] = array ();
+            $validp = true;
+          }
+          array_push($_SESSION['dadosp'], $_POST);
+
+      ?>
 
                             <br>
                         </div> 

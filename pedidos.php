@@ -52,15 +52,21 @@ $conect->close();
             <br>
             <h1>Seus pedidos</h1>
             <hr>
+          
             <div class="card">
             <?php
+            
+            print_r($_SESSION['dadosp']);
 
+            /*
             foreach ($pedidos as $dados) {
               #$pedidos = explode('#', $dados);
             
               echo '<p>'.$dados.'</p>';
               echo '<hr>';
             }
+            */
+
               ?>
             </div>
           </div>

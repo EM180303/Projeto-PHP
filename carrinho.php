@@ -119,7 +119,7 @@ require "valid_navegacao.php";
                                     echo '<p>Produto: '.$value['produto'].' | Quantidade: '.$value['quantidade'].' | Preço do produto: R$ '.$value['valor'].' | Valor a ser pago: R$ '.$pg.'</p>';
                                     echo '<hr>';
                                     
-                                 endforeach;
+                                endforeach;
                                  
                                 echo'Valor total da compra: R$ '.$total.''; 
 

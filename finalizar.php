@@ -12,8 +12,8 @@ $total = 0;
 
         $us_id = $_SESSION['idusuario'];
 
-        $data = date('ymd');
-        
+        $data = date('YmdHis');
+                
         $produto = $value['produto'];
         $quantidade = $value['quantidade'];
         $valor = $value['valor'];

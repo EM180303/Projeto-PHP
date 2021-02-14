@@ -28,7 +28,8 @@ require "nav.php";
           <img src="imagens/banana.jpg" class="card-img-top" alt="banana">
           <div class="card-body">
             <form action="sucesso.php" method="POST">
-              <h5 class="card-title"><input type="text" name="produto" value="Banana Maçã"></h5>
+            
+              <h5 class="card-title "><input type="text" name="produto" value="Banana Maçã"></h5>
               
               <p class="card-text">Preço por unidade R$: <input type="text" name="valor" value=0.25></p>
               <p id="valortotal"> Valor a ser pago: R$ 0.00</p>

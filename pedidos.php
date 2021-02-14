@@ -21,7 +21,6 @@ if ($resultado->num_rows > 0) {
         window.location.href = 'index.php';
     </script> " );
 }
-$conect->close();
 
 ?>
 
@@ -56,7 +55,32 @@ $conect->close();
             <div class="card">
             <?php
             
-            print_r($_SESSION['dadosp']);
+            $us_id = $_SESSION['idusuario'];
+
+            $query_ = "SELECT * FROM dados WHERE ce_da_id = '$us_id'";
+            $resultado = $conect->query($query_);
+              $mdata = 0;
+            if($resultado->num_rows > 0){
+              while($row = $resultado->fetch_assoc()){
+                $tdata = $row['da_data'];
+                 if($tdata > $mdata){
+                   $mdata = $tdata;
+                 }
+                $_SESSION['data'] =  $mdata;
+
+              }
+            }
+
+            $query_ = "SELECT * FROM dados WHERE da_data = '$mdata'";
+            $resultado = $conect->query($query_);
+
+            if($resultado->num_rows > 0){
+              while($row = $resultado->fetch_assoc()){
+               echo '<p>Nome: '.$row['da_nome'].'</P>';
+              }
+            }
+            
+            $conect->close();
 
             /*
             foreach ($pedidos as $dados) {

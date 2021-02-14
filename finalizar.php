@@ -27,4 +27,3 @@ $total = 0;
 
 $conect->close();
  
-unset($_SESSION['carrinho']);

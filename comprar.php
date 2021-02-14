@@ -2,6 +2,10 @@
 
 require "valid_navegacao.php";
 
+$form_pagamento = array(0 => "Crédito",
+                        1 => "Débito",
+                        2 => "Dinheiro",);
+
 ?>
 
 <html lang="pt-BR">
@@ -147,7 +151,7 @@ require "valid_navegacao.php";
                         <br>
                         <div class="card">
                            
-    <form action="pedidos.php" method="POST" class="login100-form validate-form">
+    <form action="dados.php" method="POST" class="login100-form validate-form">
 
 
 <div class="wrap-input100 validate-input m-b-16" data-validate="Digite o nome do destinatário">
@@ -191,9 +195,20 @@ require "valid_navegacao.php";
 </div>
 
 <div class="wrap-input100 validate-input m-b-16" data-validate="Digite o complemento: Casa X / Apartamento Y">
-    <input class="input100" type="text" name="complemento" size="40" placeholder="Complemento: ">
+    <input class="input100" type="text" name="complemento" size="40" placeholder="Complemento ">
     <span class="focus-input100"></span>
 </div>
+
+<div class="validate-input m-b-6" data-validate="Dinheiro / Crédido / Débito">
+<p>Forma de pagamento</p>
+    <input class="input" type="radio" name="form_pagamento" value="Crédito" size="40"> Crédito <br>
+    <span class="focus-input100"></span>
+    <input class="input" type="radio" name="form_pagamento" value="Débito" size="40"> Débito <br>
+    <span class="focus-input100"></span>
+    <input class="input" type="radio" name="form_pagamento" value="Dinheiro" size="40"> Dinheiro <br>
+    <span class="focus-input100"></span>
+</div>
+
 
 <div class="btn-success">
     <button type="submit" class="btn">
@@ -204,14 +219,6 @@ require "valid_navegacao.php";
 
 </form>
 
-<?php
-        if (! isset ( $_SESSION [ 'dadosp'])) {
-            $_SESSION ['dadosp' ] = array ();
-            $validp = true;
-          }
-          array_push($_SESSION['dadosp'], $_POST);
-
-      ?>
 
                             <br>
                         </div> 

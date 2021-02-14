@@ -69,47 +69,85 @@ if ($resultado->num_rows > 0) {
             <hr>
           
             <div class="card">
-            <?php
-            
-            $us_id = $_SESSION['idusuario'];
+              <br>
+              <h2 style="font-size: 25px;">Último pedido</h2>
+              <br>
+              <?php
+              
+              $us_id = $_SESSION['idusuario'];
 
-            $query_ = "SELECT * FROM dados WHERE ce_da_id = '$us_id'";
-            $resultado = $conect->query($query_);
-              $mdata = 0;
-            if($resultado->num_rows > 0){
-              while($row = $resultado->fetch_assoc()){
-                $tdata = $row['da_data'];
-                 if($tdata > $mdata){
-                   $mdata = $tdata;
-                 }
-                $_SESSION['data'] =  $mdata;
-
+              $query_ = "SELECT * FROM dados WHERE ce_da_id = '$us_id'";
+              $resultado = $conect->query($query_);
+                $mdata = 0;
+              if($resultado->num_rows > 0){
+                while($row = $resultado->fetch_assoc()){
+                  $tdata = $row['da_data'];
+                  if($tdata > $mdata){
+                    $mdata = $tdata;
+                  }
+                }
               }
-            }
 
-            $query_ = "SELECT * FROM dados WHERE da_data = '$mdata'";
-            $resultado = $conect->query($query_);
+              $query_ = "SELECT * FROM dados WHERE da_data = '$mdata'";
+              $resultado = $conect->query($query_);
 
-            if($resultado->num_rows > 0){
-              while($row = $resultado->fetch_assoc()){
-               echo '<p>Nome: '.$row['da_nome'].'</P>';
-               print_r($pedidos);
-               print_r($total);
+              if($resultado->num_rows > 0){
+                while($row = $resultado->fetch_assoc()){
+                echo '<p>Data do pedido: '.$row['da_data'].'<br> Valor total: R$ '.$total.'</P>';
+                $nome = $row['da_nome'];
+                $email = $row['da_email'];
+                $rua = $row['da_rua'];
+                $bairro = $row['da_bairro'];
+                $casa = $row['da_casa'];
+                $complemento = $row['da_complemento'];
+                $cidade = $row['da_cidade'];
+                $uf = $row['da_uf'];
+                $fpg = $row['da_pagamento'];
+                }
               }
-            }
-            
-            $conect->close();
-
-            /*
-            foreach ($pedidos as $dados) {
-              #$pedidos = explode('#', $dados);
-            
-              echo '<p>'.$dados.'</p>';
-              echo '<hr>';
-            }
-            */
 
               ?>
+              <p>Status: <mark style="background-color: #00FF00;">Entregue</mark></p>
+              <br>
+
+              <a href="exibir.php" class="btn btn-secondary">Detalhes</a>
+
+              <?php
+                if (isset($_GET['exibir']) && $_GET['exibir'] == 'ok') { ?>
+                <br>
+                <h3 style="font-size: 18px;">Itens</h3>
+                <?php
+                  for ($i = 0, $size = count($pedidos); $i < $size; ++$i){
+                  echo ('<p>'.$pedidos[$i].'</p>');
+                  }
+                  
+                  echo ("Total da compra: R$ $total");
+              ?>
+
+              <hr>
+              <h3 style="font-size: 18px;">Informações para entrega</h3>
+                  <br>
+              <?php
+              
+                echo "<p>Nome: </p>$nome";
+                ?>
+                <hr>
+                <?php
+                echo "<p>Endereço: </p>$rua, Nº $casa - $complemento, $bairro, $cidade - $uf";
+                ?>
+                <hr>
+                <?php
+                echo "<p>Forma de pagamento: </p>$fpg";
+
+                $conect->close();
+                
+                ?>
+                <br>
+              <br>
+              <?php
+                 } 
+              ?>
+              
             </div>
           </div>
         </div>

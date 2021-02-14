@@ -4,14 +4,30 @@ require "nav.php";
 require "conexao.php";
 
 $us_id = $_SESSION['idusuario'];
+
 $query_ = "SELECT * FROM carrinho WHERE ce_ca_id = '$us_id'";
 $resultado = $conect->query($query_);
-$pedidos = array();
+  $mendata = 0;
+  if($resultado->num_rows > 0){
+    while($row = $resultado->fetch_assoc()){
+      $tempdata = $row['ca_data'];
+      if($tempdata > $mendata){
+        $mendata = $tempdata;
+      }
+    }
+  }
 
+$query_ = "SELECT * FROM carrinho WHERE ce_ca_id = '$us_id' AND ca_data = '$mendata'";
+$resultado = $conect->query($query_);
+$pedidos = array();
+$total = 0;
 if ($resultado->num_rows > 0) {
   while ($row = $resultado->fetch_assoc()) {
     
     $pedidos[] = "Produto: ".$row['ca_produto'] . " || Quantidade: " . $row['ca_quantidade'] . " || Preço do produto: R$ " . $row['ca_valor'] . " || Valor pago: R$ " . $row['ca_valor_pg'];
+
+    $total = $row['ca_valor_pg'] + $total;
+    
   }
 
 } else {
@@ -77,6 +93,8 @@ if ($resultado->num_rows > 0) {
             if($resultado->num_rows > 0){
               while($row = $resultado->fetch_assoc()){
                echo '<p>Nome: '.$row['da_nome'].'</P>';
+               print_r($pedidos);
+               print_r($total);
               }
             }
             

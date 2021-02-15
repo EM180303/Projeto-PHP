@@ -213,8 +213,7 @@ $form_pagamento = array(0 => "Crédito",
 <div class="btn-success">
     <button type="submit" class="btn">
         Confirmar
-    </button>
-    
+    </button> 
 </div>
 
 </form>
@@ -222,6 +221,11 @@ $form_pagamento = array(0 => "Crédito",
 
                             <br>
                         </div> 
+
+                        <div class="col-sm">
+                            <a class="btn btn-danger" href="delete.php">Voltar para o carrinho</a>
+                        </div>
+
                        
                     </div>
                 </div>

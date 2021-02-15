@@ -143,7 +143,8 @@ if ($resultado->num_rows > 0) {
                 
                 ?>
                 <br>
-              <br>
+                <br>
+                <a href="esconder.php" class="btn btn-danger">Esconder</a>
               <?php
                  } 
               ?>

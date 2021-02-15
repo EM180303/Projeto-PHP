@@ -218,10 +218,8 @@ $form_pagamento = array(0 => "Crédito",
 
 </form>
 
-
-                            <br>
                         </div> 
-
+                            <br>
                         <div class="col-sm">
                             <a class="btn btn-danger" href="delete.php">Voltar para o carrinho</a>
                         </div>

@@ -8,6 +8,8 @@ $us_id = $_SESSION['idusuario'];
 print_r($deletedata);
 print_r($us_id);
 
+
+
 $query_ = "DELETE FROM carrinho WHERE ca_data = '$deletedata' AND ce_ca_id = '$us_id'";
 $resultado = $conect->query($query_);
 

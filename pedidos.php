@@ -106,6 +106,13 @@ if ($resultado->num_rows > 0) {
                 }
               }
 
+              if ($nome == 0){
+                echo ( "<script>
+                window.alert ('Você ainda não possui nenhum pedido!')
+                window.location.href = 'index.php';
+                </script> " );
+              }
+
               ?>
               <p>Status: <mark style="background-color: #00FF00;">Entregue</mark></p>
               <br>

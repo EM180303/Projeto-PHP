@@ -2,6 +2,8 @@
 
 session_start();
 
+unset($_SESSION['carrinho']);
+    
 header('Access-Control-Allow-Origin: *');
 require("conexao.php");
 $email = $_POST['email'];
@@ -14,10 +16,12 @@ if($resultado->num_rows > 0){
         $_SESSION['idusuario'] = $row['us_id'];
         $_SESSION['nome'] = $row['us_nome'];
         $_SESSION['validado'] = 'SIM';
+
         echo ("<script>
           window.alert('Login realizado com sucesso!')
           window.location.href='index.php';
       </script>");
+      
 
     }
 } else{

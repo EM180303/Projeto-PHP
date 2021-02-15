@@ -139,7 +139,7 @@ require "valid_navegacao.php";
                           <?php  } else{ ?>
                           <br>
                                <div class="col-sm">
-                               <a class="btn btn-info" href="index.php">Comprar</a>
+                               <a class="btn btn-info" href="index.php">Ver produtos</a>
                            </div>
                            <br>
                            <br>

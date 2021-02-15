@@ -25,8 +25,10 @@ require "nav.php";
           <img src="imagens/cara.jpg" class="card-img-top" alt="cará">
           <div class="card-body">
             <form action="sucesso.php" method="POST">
-              <h5 class="card-title"><input name="produto" type="text" value="Cará São Tomé"></h5>
-              <p class="card-text">Valor por Kg: <input name="valor" type="text" value="4.29"></p>
+              <h3 class="card-title">Cará São Tomé</h3>
+              <input name="produto" type="hidden" value="Cará São Tomé">
+              <p class="card-text">Valor por Kg: 4.29</p>
+              <input name="valor" type="hidden" value="4.29">
               <p id="valortotal"> Valor a ser pago: R$ 0.00</p>
               <p>Quantidade:</p>
               <input name="quantidade" class="btn btn-secondary" placeholder="Adicione a quantidade" type="number" id="cara" onblur="valorProduto();">

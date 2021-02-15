@@ -26,8 +26,10 @@ require "nav.php";
           <img src="imagens/coentro-p.jpg" class="card-img-top" alt="coentro">
           <div class="card-body">
             <form action="sucesso.php" method="POST">
-              <h5 class="card-title"><input name="produto" type="text" value="Coentro"></h5>
-              <p class="card-text">Valor por unidade R$: <input name="valor" type="text" value="2.40"></p>
+              <h3 class="card-title">Coentro</h3>
+              <input name="produto" type="hidden" value="Coentro">
+              <p class="card-text">Valor por unidade R$: 2.40</p>
+              <input name="valor" type="hidden" value="2.40">
               <p id="valortotal"> Valor a ser pago: R$ 0.00</p>
               <p>Quantidade:</p>
               <input name="quantidade" class="btn btn-secondary" placeholder="Adicione a quantidade" type="number" id="coentro" onblur="valorProduto();">

@@ -57,7 +57,7 @@ INSERT INTO `busca` (`bu_id`, `bu_nome`, `bu_categoria`, `bu_pag`) VALUES
 (20, 'macaxeira', 'produto', 'macaxeira.php'),
 (21, 'mandioquinha', 'produto', 'mandioquinha.php'),
 (22, 'melancia', 'produto', 'melancia.php'),
-(23, 'pepino japonês', 'produto', 'pepinho.php'),
+(23, 'pepino japonês', 'produto', 'pepiho.php'),
 (24, 'raízes / tubérculos', 'produto', 'raizes.php'),
 (25, 'repolho', 'produto', 'repolho.php'),
 (26, 'tomate cereja', 'produto', 'tomate.php'),
@@ -67,7 +67,6 @@ INSERT INTO `busca` (`bu_id`, `bu_nome`, `bu_categoria`, `bu_pag`) VALUES
 (30, 'pedidos', 'página', 'pedidos.php'),
 (31, 'login', 'página', 'login.php'),
 (32, 'cadastro', 'página', 'cadastro.php'),
-(33, 'página inicial / home', 'página', 'index.php');
 
 -- --------------------------------------------------------
 

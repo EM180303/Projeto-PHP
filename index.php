@@ -47,28 +47,41 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="index.php">Feira em Casa</a>
-          <a href="index.php"><img src="imagens/logo-75.png" alt="Logo" width="50"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          
+            <a class="navbar-brand" href="index.php">Feira em Casa</a>
+            <a href="index.php"><img src="imagens/logo-75.png" alt="Logo" width="50"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
           <div class="collapse navbar-collapse" id="navbarResponsive">
+          
             <ul class="navbar-nav ml-auto">
+
+            <li>
+              <form class="form-inline" method="POST" action="buscar.php">
+                    <div class="form-group">
+                      <label style="color: #E8E1DF;" for="exampleInputName2">Buscar </label>
+                      <input type="text" name="buscar" class="form-control" id="exampleInputName2" placeholder="Digitar busca">
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Pesquisar</button>
+                  </form>
+            </li>
+            
               <li class="nav-item">
                 <a class="nav-link" href="login.php">Login
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="carrinho.php">Carrinho
-                  <span class="sr-only">(current)</span>
+                <a class="nav-link" href="carrinho.php">Carrinho<svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                  </svg>
+                  <spa class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="carrinho.php">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
-                    <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
-                  </svg>
+                <a class="nav-link" href="pedidos.php">Pedidos
                 </a>
               </li>
               
@@ -193,6 +206,8 @@
               </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 mb-4"></div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">

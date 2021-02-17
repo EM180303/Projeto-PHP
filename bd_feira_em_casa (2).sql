@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 15/02/2021 às 20:35
+-- Tempo de geração: 17/02/2021 às 02:00
 -- Versão do servidor: 10.4.17-MariaDB
 -- Versão do PHP: 8.0.0
 
@@ -20,6 +20,54 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `bd_feira_em_casa`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura para tabela `busca`
+--
+
+CREATE TABLE `busca` (
+  `bu_id` int(11) NOT NULL,
+  `bu_nome` varchar(500) NOT NULL,
+  `bu_categoria` varchar(500) NOT NULL,
+  `bu_pag` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Despejando dados para a tabela `busca`
+--
+
+INSERT INTO `busca` (`bu_id`, `bu_nome`, `bu_categoria`, `bu_pag`) VALUES
+(5, 'abobrinha', 'produto', 'abobrinha.php'),
+(6, 'alface lisa', 'produto', 'alface.php'),
+(7, 'banana maçã', 'produto', 'banana.php'),
+(8, 'batata doce', 'produto', 'batata.php'),
+(9, 'cará são tomé', 'produto', 'cara.php'),
+(10, 'cebola', 'produto', 'cebola.php'),
+(11, 'chuchu', 'produto', 'chuchu.php'),
+(12, 'coentro', 'produto', 'coentro.php'),
+(13, 'couve-flor', 'produto', 'couve.php'),
+(14, 'folhagens', 'tipo', 'folhagens.php'),
+(15, 'frutas', 'tipo', 'frutas.php'),
+(16, 'hortelã', 'produto', 'hortela.php'),
+(17, 'inhame', 'produto', 'inhame.php'),
+(18, 'laranja bahia', 'produto', 'laranja.php'),
+(19, 'maçã gala', 'produto', 'maca.php'),
+(20, 'macaxeira', 'produto', 'macaxeira.php'),
+(21, 'mandioquinha', 'produto', 'mandioquinha.php'),
+(22, 'melancia', 'produto', 'melancia.php'),
+(23, 'pepino japonês', 'produto', 'pepinho.php'),
+(24, 'raízes / tubérculos', 'produto', 'raizes.php'),
+(25, 'repolho', 'produto', 'repolho.php'),
+(26, 'tomate cereja', 'produto', 'tomate.php'),
+(27, 'uva roxa', 'produto', 'uva.php'),
+(28, 'verduras / legumes', 'produto', 'verduras.php'),
+(29, 'carrinho', 'página', 'carrinho.php'),
+(30, 'pedidos', 'página', 'pedidos.php'),
+(31, 'login', 'página', 'login.php'),
+(32, 'cadastro', 'página', 'cadastro.php'),
+(33, 'página inicial / home', 'página', 'index.php');
 
 -- --------------------------------------------------------
 
@@ -85,7 +133,29 @@ INSERT INTO `carrinho` (`ce_ca_id`, `ca_produto`, `ca_quantidade`, `ca_valor`, `
 (4, 'Mandioquinha', 5, '19.99', '99.95', '2021-02-14 21:56:23'),
 (4, 'Couve-Flor', 6, '10.99', '65.94', '2021-02-14 21:56:23'),
 (4, 'Banana Maçã', 5, '0.25', '1.25', '2021-02-15 00:39:23'),
-(4, 'Batata Doce', 6, '3.59', '21.54', '2021-02-15 00:39:23');
+(4, 'Batata Doce', 6, '3.59', '21.54', '2021-02-15 00:39:23'),
+(54, 'Banana Maçã', 10, '0.25', '2.5', '2021-02-15 22:12:51'),
+(54, 'Abobrinha', 2, '4.80', '9.6', '2021-02-15 22:12:51'),
+(54, 'Alface Lisa', 8, '2.59', '20.72', '2021-02-15 22:12:51'),
+(54, 'Batata Doce', 5, '3.59', '17.95', '2021-02-15 22:12:51'),
+(54, 'Cará São Tomé', 3, '4.29', '12.87', '2021-02-15 22:12:51'),
+(54, 'Cebola', 3, '3.25', '9.75', '2021-02-15 22:12:51'),
+(54, 'Chuchu', 8, '1.50', '12', '2021-02-15 22:12:51'),
+(54, 'Coentro', 5, '2.40', '12', '2021-02-15 22:12:51'),
+(54, 'Couve-Flor', 2, '10.99', '21.98', '2021-02-15 22:12:51'),
+(54, 'Hortelã', 4, '3.50', '14', '2021-02-15 22:12:51'),
+(54, 'Inhame', 3, '9.50', '28.5', '2021-02-15 22:12:51'),
+(54, 'Laranja Bahia', 15, '0.50', '7.5', '2021-02-15 22:12:51'),
+(54, 'Maçã Gala', 5, '0.80', '4', '2021-02-15 22:12:51'),
+(54, 'Macaxeira', 3, '3.10', '9.3', '2021-02-15 22:12:51'),
+(54, 'Mandioquinha', 1, '19.99', '19.99', '2021-02-15 22:12:51'),
+(54, 'Melancia', 1, '7.00', '7', '2021-02-15 22:12:51'),
+(54, 'Pepino Japonês', 3, '2.20', '6.6', '2021-02-15 22:12:51'),
+(54, 'Repolho', 2, '6.50', '13', '2021-02-15 22:12:51'),
+(54, 'Tomate Cereja', 1, '20.99', '20.99', '2021-02-15 22:12:51'),
+(54, 'Uva Roxa', 2, '8.50', '17', '2021-02-15 22:12:51'),
+(5, 'Inhame', 2, '9.50', '19', '2021-02-15 23:52:20'),
+(5, 'Batata Doce', 18, '3.59', '64.62', '2021-02-15 23:52:20');
 
 -- --------------------------------------------------------
 
@@ -117,7 +187,8 @@ INSERT INTO `dados` (`ce_da_id`, `da_nome`, `da_email`, `da_rua`, `da_bairro`, `
 (54, 'dudu', 'edu@gmail.com', 'Rua Rosendo Adriano', 'Cavaleiro', 'Jaboatão dos Guararapes', 'PE', 18, 'e', 'Crédito', '2021-02-14 18:01:58'),
 (2, 'dudu', 'e.marques180303@gmail.com', 'Rua Cinco', 'Curado', 'Jaboatão dos Guararapes', 'PE', 75, 'l', 'Crédito', '2021-02-14 18:45:22'),
 (4, 'teste2', 'teste2@gmail.com', 'Rua Dois', 'Curado', 'Jaboatão dos Guararapes', 'PE', 120, 'Apartamento 8', 'Débito', '2021-02-14 21:58:30'),
-(4, 'teste2', 'teste2@gmail.com', 'Rua Cinco', 'Curado', 'Jaboatão dos Guararapes', 'PE', 46, 'a', 'Dinheiro', '2021-02-15 00:39:58');
+(4, 'teste2', 'teste2@gmail.com', 'Rua Cinco', 'Curado', 'Jaboatão dos Guararapes', 'PE', 46, 'a', 'Dinheiro', '2021-02-15 00:39:58'),
+(54, 'Agora Vai', 'agora.vai@gmail.com', 'Rua Três', 'Zumbi do Pacheco', 'Jaboatão dos Guararapes', 'PE', 45, 'Apartamento 128', 'Débito', '2021-02-15 22:14:15');
 
 -- --------------------------------------------------------
 
@@ -168,6 +239,12 @@ INSERT INTO `usuarios` (`us_id`, `us_nome`, `us_sobrenome`, `us_idade`, `us_tele
 --
 
 --
+-- Índices de tabela `busca`
+--
+ALTER TABLE `busca`
+  ADD PRIMARY KEY (`bu_id`);
+
+--
 -- Índices de tabela `carrinho`
 --
 ALTER TABLE `carrinho`
@@ -188,6 +265,12 @@ ALTER TABLE `usuarios`
 --
 -- AUTO_INCREMENT para tabelas despejadas
 --
+
+--
+-- AUTO_INCREMENT de tabela `busca`
+--
+ALTER TABLE `busca`
+  MODIFY `bu_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT de tabela `usuarios`

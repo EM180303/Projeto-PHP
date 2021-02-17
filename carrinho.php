@@ -67,6 +67,12 @@ require "valid_navegacao.php";
                             <span class="sr-only">(current)</span>
                             </a>
                         </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="pedidos.php">Pedidos
+                            </a>
+                        </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" href="logoff.php">Sair
                             <span class="sr-only">(current)</span>

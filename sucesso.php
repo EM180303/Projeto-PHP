@@ -18,12 +18,6 @@
     }
     array_push($_SESSION['carrinho'], $_POST);
 
-    /*
-    $stmt = $conect ->prepare("INSERT INTO carrinho (ce_ca_id,ca_produto,ca_quantidade,ca_valor,ca_valor_pg,ca_data) VALUES (?,?,?,?,?,?)");
-    $stmt->bind_param("isissd", $us_id, $produto, $quantidade, $valor, $valor_pg, $data);
-    $stmt->execute();
-    $conect->close();
-    */
    echo ("<script>
           window.alert('Produto adicionado ao carrinho com sucesso!')
           window.location.href='carrinho.php';

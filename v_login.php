@@ -22,7 +22,6 @@ if($resultado->num_rows > 0){
           window.location.href='index.php';
       </script>");
       
-
     }
 } else{
     $_SESSION['validado'] = 'NÃO';

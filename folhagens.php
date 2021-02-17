@@ -106,6 +106,8 @@ require "nav.php";
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 mb-4"></div>
+
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
               <a href="repolho.php"><img class="card-img-top" src="imagens/repolho-p.jpg" alt="Repolho" height="145px"></a>

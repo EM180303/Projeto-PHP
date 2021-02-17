@@ -29,7 +29,7 @@ require "nav.php";
           <div class="card-body">
             <form action="sucesso.php" method="POST">
             
-              <h3 class="card-title ">Bana Maçã</h3>
+              <h3 class="card-title ">Banana Maçã</h3>
 
               <input type="hidden" name="produto" value="Banana Maçã">
               <input type="hidden" name="valor" value=0.25>

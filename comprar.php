@@ -2,10 +2,6 @@
 
 require "valid_navegacao.php";
 
-$form_pagamento = array(0 => "Crédito",
-                        1 => "Débito",
-                        2 => "Dinheiro",);
-
 ?>
 
 <html lang="pt-BR">

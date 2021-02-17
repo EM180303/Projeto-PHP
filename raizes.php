@@ -93,10 +93,10 @@ require "nav.php";
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
-              <a href="macaxira.php"><img class="card-img-top" src="imagens/macaxeira-p.jpg" alt="Macaxeira"></a>
+              <a href="macaxeira.php"><img class="card-img-top" src="imagens/macaxeira-p.jpg" alt="Macaxeira"></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="macaxira.php"><h3>
+                  <a href="macaxeira.php"><h3>
                     Macaxeira
                   </h3></a>
                 </h4>
@@ -105,6 +105,8 @@ require "nav.php";
               </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 mb-4"></div>
 
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
